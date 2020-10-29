@@ -6,4 +6,7 @@ export default theme({
   docs: {
     primaryColor: '#41B883'
   },
+  router: {
+    base: '/v-mapbox-docs/',
+  },
 })

@@ -1,9 +1,9 @@
 {
   "title": "Documentation for v-mapbox",
-  "url": "https://geospoc.github.io/v-mapbox",
+  "url": "https://geospoc.github.io/v-mapbox-docs",
   "logo": {
-    "light": "/logo-light.svg",
-    "dark": "/logo-dark.svg"
+    "light": "/v-mapbox-docs/logo-light.svg",
+    "dark": "/v-mapbox-docs/logo-dark.svg"
   },
   "github": "geospoc/v-mapbox-docs",
   "twitter": "@geospoc"
