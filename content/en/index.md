@@ -5,11 +5,21 @@ position: 1
 category: Intro
 ---
 
--> `Declarative style` : You can use map elements like layers, markers, popups as Vue components and control them via synchronized props
 
--> `Vuefied` : Map elements declared as components respect Vue lifecycle, emit map events like Vue events and can be used in OOP-style
+<alert type="info">
+Declarative style: 
+You can use map elements like layers, markers, popups as Vue components and control them via synchronized props
+</alert>
 
--> `Promisified async actions` : You can do async map operations and get results in Promise without messing with map events and figuring out what action cause it
+<alert type="success">
+Vuefied:
+Map elements declared as components respect Vue lifecycle, emit map events like Vue events and can be used in OOP-style
+</alert>
+
+<alert type="info">
+Promisified async actions:
+You can do async map operations and get results in Promise without messing with map events and figuring out what action cause it
+</alert>
 
 ```vue
 <template>
@@ -68,5 +78,9 @@ export default {
 
 
 ### Size
+
+<alert type="info">
 ~ 15 kB minified and gzipped
+</alert>
+
 

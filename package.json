@@ -9,10 +9,10 @@
     "generate": "nuxt generate",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lintfix": "npm run lint:eslint:fix && npm run lint:prettier:fix",
-    "lint:eslint": "eslint \"{,!(node_modules|.nuxt)/**/}*.{js,vue}\"",
-    "lint:eslint:fix": "eslint --fix \"{,!(node_modules|.nuxt)/**/}*.{js,vue}\"",
-    "lint:prettier": "prettier --check \"{,!(node_modules|.nuxt)/**/}*.{js,vue}\"",
-    "lint:prettier:fix": "prettier --write \"{,!(node_modules|.nuxt)/**/}*.{js,vue}\"",
+    "lint:eslint": "eslint \"{,!(node_modules|.nuxt|static)/**/}*.{js,vue}\"",
+    "lint:eslint:fix": "eslint --fix \"{,!(node_modules|.nuxt|static)/**/}*.{js,vue}\"",
+    "lint:prettier": "prettier --check \"{,!(node_modules|.nuxt|static)/**/}*.{js,vue}\"",
+    "lint:prettier:fix": "prettier --write \"{,!(node_modules|.nuxt|static)/**/}*.{js,vue}\"",
     "test": "ava"
   },
   "dependencies": {
