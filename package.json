@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.8.2",
-    "nuxt": "^2.14.7"
+    "nuxt": "^2.14.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
