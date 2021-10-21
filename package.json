@@ -16,7 +16,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@nuxt/content-theme-docs": "^0.10.2",
+    "@nuxt/content-theme-docs": "^0.11.0",
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
